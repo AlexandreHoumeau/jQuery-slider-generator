@@ -87,8 +87,12 @@
     // Run the Plugin
     $(document).ready(function() {
       var mySlider = $('.app').MySlider({
-       'photos': ['https://copinesdefilsfr.files.wordpress.com/2017/10/423341110329_qy737vid_l.jpg','https://copinesdefilsfr.files.wordpress.com/2017/10/16517781789_6ed90c5678.jpg','https://upload.wikimedia.org/wikipedia/pt/archive/c/cd/20101122222142%21The-catalyst-single-cover-500x500.png'],
-       'autoSpeed' : 1000,
+       'photos': ['https://copinesdefilsfr.files.wordpress.com/2017/10/423341110329_qy737vid_l.jpg','https://copinesdefilsfr.files.wordpress.com/2017/10/16517781789_6ed90c5678.jpg','https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg','https://upload.wikimedia.org/wikipedia/pt/archive/c/cd/20101122222142%21The-catalyst-single-cover-500x500.png'],
+       'autoSpeed' : 200,
+       'speedEffect' : 500,
+       'delay' : 600,
+       'autoPlay' : false,
+       'effects' : 'slide' //slide - fade 
        // 'width': '100vw',
        // 'height': '90vh'
       });
